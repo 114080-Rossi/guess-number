@@ -8,12 +8,6 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class MatchDto {
-
-    private Long id;
-
+public class CreateUserMatchDto {
     private MatchDifficulti difficulty;
-
-    private Integer remainingTries;
-
 }

@@ -2,11 +2,15 @@ package ar.edu.utn.frc.tup.ic.iii.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity
-@Data
+@Getter
 @Setter
+@NoArgsConstructor
+@Entity
+@Table(name = "users") //Por buena convencion las tablas se llaman en plural
 public class UserEntity {
 
     @Id
